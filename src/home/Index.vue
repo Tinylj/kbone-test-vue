@@ -6,6 +6,7 @@
       <a href="/test/detail/123" target="_blank">新开页面跳转</a>
       <button @click="onClickJump">当前页跳转</button>
       <button @click="onClickOpen">新开页面跳转</button>
+      <button @click="goLogin">登录页测试</button>
     </div>
     <!-- vue-improve-loader -->
     <div check-reduce>
@@ -61,6 +62,9 @@ export default Vue.extend({
     onClickOpen() {
       window.open('/test/detail/123')
     },
+    goLogin() {
+      window.open('/loginm')
+    }
   },
 })
 </script>

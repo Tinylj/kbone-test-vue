@@ -29,5 +29,10 @@ export default new Router({
     path: '/test/detail/:id',
     name: 'Detail',
     component: Detail,
-  }],
+  },{
+    name: 'loginm',
+    path: '/loginm',
+    component: resolve => {return import('../home/LoginM.vue');}
+  },
+  ],
 })

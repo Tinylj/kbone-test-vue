@@ -19,7 +19,11 @@
   "dependencies": {
     "vue": "^2.6.11",
     "vue-router": "^3.3.2",
-    "vuex": "^3.4.0"
+    "vuex": "^3.4.0",
+    "vue-cookie": "^1.1.4",
+    "lh-ui": "^2.3.1-beta.56",
+    "axios": "^0.20.0",
+    "element-ui": "^2.13.0"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
